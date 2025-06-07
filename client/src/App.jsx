@@ -1,12 +1,16 @@
-import React from "react";
-import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/home";
+import Navbar from "./components/Navbar";
+// import BookingPage from "./pages/BookingPage";
 
 function App() {
   return (
     <>
-      <div>
-        <h1 className="text-green-700 text-3xl">flight boking</h1>
-      </div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/book" element={<BookingPage />} /> */}
+      </Routes>
     </>
   );
 }
