@@ -1,12 +1,15 @@
 import React from "react";
-import Hero from "../components/Hero";
-import Media from "../components/Media";
+import Hero from "../components/home/Hero";
+import Media from "../components/home/Media";
+import Destination from "../components/home/Destination";
 
 function Home() {
   return (
     <div className="">
       <Hero />
       <Media />
+      <Destination />
+      {/* Add more components as needed */}
     </div>
   );
 }

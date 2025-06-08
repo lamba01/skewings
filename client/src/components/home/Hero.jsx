@@ -1,7 +1,6 @@
 import React from "react";
-import heroBg from "../assets/hero-image.png";
-import plane from "../assets/plane.png";
-import "../index.css";
+import heroBg from "../../assets/hero-image.png";
+import plane from "../../assets/plane.png";
 
 function Hero() {
   return (

@@ -12,7 +12,7 @@ export default function NavBar() {
   const activeClass = "text-[#2986FE]";
 
   return (
-    <nav className="flex justify-between md:justify-around items-center px-5 sm:px-10 z-20 fixed top-0 bg-white h-16 w-full ">
+    <nav className="flex justify-between md:justify-around items-center px-5 sm:px-5 z-20 fixed top-0 bg-white h-16 w-full ">
       {/* Logo */}
       <div className="flex items-center">
         <NavLink to="/">
@@ -21,7 +21,7 @@ export default function NavBar() {
       </div>
 
       {/* Desktop Links */}
-      <div className="hidden md:flex gap-5 md:gap-10 uppercase font-semibold">
+      <div className="hidden md:flex gap-5 md:gap-8 uppercase font-semibold">
         <NavLink
           to="/package"
           className={({ isActive }) =>
@@ -67,7 +67,7 @@ export default function NavBar() {
       {/* Book Trip Button */}
       <div className="hidden md:block">
         <NavLink to="/book-trip">
-          <button className="bg-black text-white uppercase font-semibold px-4 py-2 rounded-md hover:bg-gray-800 transition duration-300">
+          <button className="bg-black text-white uppercase font-semibold px-8 py-2 rounded-4xl hover:bg-gray-800 transition duration-300">
             Book Trip
           </button>
         </NavLink>

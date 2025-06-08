@@ -3,14 +3,14 @@ import { FaTwitter } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import tripadvisor from "../assets/Tripadvisor-Logo.svg";
-import trivago from "../assets/Trivago-Logo.svg";
-import expedia from "../assets/Expedia-Logo.svg";
-import booking from "../assets/Booking-Logo.svg";
+import tripadvisor from "../../assets/Tripadvisor-Logo.svg";
+import trivago from "../../assets/Trivago-Logo.svg";
+import expedia from "../../assets/Expedia-Logo.svg";
+import booking from "../../assets/Booking-Logo.svg";
 
 const Media = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center gap-10 p-5 mt-10 mb-20">
+    <section className="flex flex-col md:flex-row items-center justify-between px-3 md:px-40 gap-12 py-5 mt-10 mb-20">
       <div className="flex gap-6 shadow-lg bg-white border-[#F0F0F0] border-2 px-6 py-3 w-fit rounded-4xl">
         <h2 className="text-lg font-semibold capitalize">follow</h2>
         <div className="flex gap-2 items-center justify-center">
@@ -48,7 +48,7 @@ const Media = () => {
           </a>
         </div>
       </div>
-      <div className="flex gap-6 justify-center items-center flex-wrap">
+      <div className="flex gap-5 md:gap-20 justify-center items-center flex-wrap">
         <img src={tripadvisor} alt="Tripadvisor Logo" />
         <img src={trivago} alt="Trivago Logo" />
         <img src={expedia} alt="Expedia Logo" />
