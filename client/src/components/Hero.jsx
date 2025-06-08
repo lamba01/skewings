@@ -5,7 +5,7 @@ import "../index.css";
 
 function Hero() {
   return (
-    <main className="mt-24 relative">
+    <main className="mt-24 px-3 md:px-10 relative">
       <div
         className="bg-cover bg-no-repeat bg-center clip-shape rounded-[40px] h-[75vh] md:h-[80vh]"
         style={{ backgroundImage: `url(${heroBg})` }}
