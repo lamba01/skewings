@@ -12,7 +12,7 @@ export default function NavBar() {
   const activeClass = "text-[#2986FE]";
 
   return (
-    <nav className="flex justify-between md:justify-around items-center px-5 sm:px-5 z-20 fixed top-0 bg-white h-16 w-full ">
+    <nav className="flex justify-between md:justify-between items-center px-5 sm:px-20 z-20 fixed top-0 bg-white h-16 w-full ">
       {/* Logo */}
       <div className="flex items-center">
         <NavLink to="/">

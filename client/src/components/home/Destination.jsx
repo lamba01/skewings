@@ -85,7 +85,7 @@ function Destination() {
       : [];
 
   return (
-    <section className="px-5 md:px-40">
+    <section className="px-5 md:px-20">
       <div className="text-start flex flex-col md:flex-row justify-between items-start mb-8">
         <SectionHeader
           title="Popular Destinations"

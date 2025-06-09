@@ -10,7 +10,7 @@ import booking from "../../assets/Booking-Logo.svg";
 
 const Media = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between px-3 md:px-40 gap-12 py-5 mt-10 mb-20">
+    <section className="flex flex-col md:flex-row items-center justify-between px-3 md:px-20 gap-10 py-5 mt-10 mb-20">
       <div className="flex gap-6 shadow-lg bg-white border-[#F0F0F0] border-2 px-6 py-3 w-fit rounded-4xl">
         <h2 className="text-lg font-semibold capitalize">follow</h2>
         <div className="flex gap-2 items-center justify-center">
@@ -48,11 +48,11 @@ const Media = () => {
           </a>
         </div>
       </div>
-      <div className="flex gap-5 md:gap-20 justify-center items-center flex-wrap">
-        <img src={tripadvisor} alt="Tripadvisor Logo" />
-        <img src={trivago} alt="Trivago Logo" />
-        <img src={expedia} alt="Expedia Logo" />
-        <img src={booking} alt="Booking Logo" />
+      <div className="flex gap-5 md:gap-20 justify-center items-center flex-wrap ">
+        <img src={tripadvisor} alt="Tripadvisor Logo" className="w-32 h-auto" />
+        <img src={trivago} alt="Trivago Logo" className="w-32 h-auto" />
+        <img src={expedia} alt="Expedia Logo" className="w-32 h-auto" />
+        <img src={booking} alt="Booking Logo" className="w-32 h-auto" />
       </div>
     </section>
   );
