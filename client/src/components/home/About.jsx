@@ -4,10 +4,16 @@ function About() {
   return (
     <section className="px-5 md:px-20  mt-20 w-full">
       <div className="flex gap-6 md:gap-12 justify-between items-start flex-col md:flex-row">
-        <div className="bg-[#D9D9D9]/41 py-2 px-6 capitalize text-center w-fit rounded-3xl font-semibold h-fit">
+        <div
+          className="bg-[#D9D9D9]/41 py-2 px-6 capitalize text-center w-fit rounded-3xl font-semibold h-fit"
+          data-aos="fade-left"
+        >
           <h3>About Us</h3>
         </div>
-        <div className="w-full md:w-2/3 flex flex-col gap-4">
+        <div
+          className="w-full md:w-2/3 flex flex-col gap-4"
+          data-aos="fade-right"
+        >
           <p className="text-xm font-semibold mb-2 ">
             Our goal is to provide seamless flight booking, unbeatable deals,
             and a hassle-free experience. Let us handle the details while you
@@ -31,7 +37,10 @@ function About() {
           </div>
         </div>
       </div>
-      <aside className="flex flex-col md:flex-row gap-6 md:gap-12 justify-around items-center mt-4 md:mt-10">
+      <aside
+        className="flex flex-col md:flex-row gap-6 md:gap-12 justify-around items-center mt-4 md:mt-10"
+        data-aos="fade-up"
+      >
         <div className="text-center mt-10 mb-6">
           <h1 className="text-7xl font-semibold text-[#2986FE]">10+</h1>
           <p className="capitalize font-semibold">years of experiences</p>

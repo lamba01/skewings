@@ -7,7 +7,10 @@ import "./booking.css";
 
 function Booking() {
   return (
-    <section className="px-5 md:px-20 text-center mt-20 w-full">
+    <section
+      className="px-5 md:px-20 text-center mt-20 w-full"
+      data-aos="zoom-in"
+    >
       <SectionHeader
         title="journey the skies made simple"
         subtitle="Seamless flight booking and travel planning at your fingertips—effortless, affordable, and stress-free journeys await you!"

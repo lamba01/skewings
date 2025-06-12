@@ -15,7 +15,7 @@ const Media = () => {
         <h2 className="text-lg font-semibold capitalize">follow</h2>
         <div className="flex gap-2 items-center justify-center">
           <a
-            href="https://twitter.com/yourprofile"
+            href="https://twitter.com/lambacodes"
             target="_blank"
             rel="noopener noreferrer"
             className="w-8 h-8 flex items-center justify-center rounded-full bg-gradient-to-r from-blue-600 to-blue-800 text-white shadow-lg transition-transform transform"
@@ -39,7 +39,7 @@ const Media = () => {
             <FaFacebookF size={20} />
           </a>
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://linkedin.com/in/johnmoyinoluwa"
             target="_blank"
             rel="noopener noreferrer"
             className="w-8 h-8 flex items-center justify-center rounded-full bg-gradient-to-r from-blue-600 to-blue-800 text-white shadow-lg transition-transform transform"
@@ -48,7 +48,10 @@ const Media = () => {
           </a>
         </div>
       </div>
-      <div className="flex gap-5 md:gap-20 justify-center items-center flex-wrap ">
+      <div
+        className="flex gap-5 md:gap-20 justify-center items-center flex-wrap"
+        data-aos="fade-up"
+      >
         <img src={tripadvisor} alt="Tripadvisor Logo" className="w-32 h-auto" />
         <img src={trivago} alt="Trivago Logo" className="w-32 h-auto" />
         <img src={expedia} alt="Expedia Logo" className="w-32 h-auto" />

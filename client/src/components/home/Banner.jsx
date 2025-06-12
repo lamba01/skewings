@@ -18,7 +18,10 @@ const bannerData = [
 function Banner() {
   return (
     <section>
-      <div className="flex flex-col md:flex-row gap-8 md:gap-16 justify-between items-center px-5 md:px-20 mt-20">
+      <div
+        className="flex flex-col md:flex-row gap-8 md:gap-16 justify-between items-center px-5 md:px-20 mt-20"
+        data-aos="fade-down"
+      >
         {bannerData.map((item) => (
           <div
             key={item.id}

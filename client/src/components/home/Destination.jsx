@@ -107,7 +107,10 @@ function Destination() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 transition-all duration-300">
+      <div
+        className="grid grid-cols-1 lg:grid-cols-3 gap-6 transition-all duration-300"
+        data-aos="fade-up"
+      >
         {[...visibleDestinations, ...fallbackItems].map((destination) => (
           <div
             key={destination.id}

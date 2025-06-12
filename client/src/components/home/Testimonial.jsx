@@ -38,7 +38,7 @@ const testimonials = [
 function Testimonial() {
   return (
     <section>
-      <div className="px-5 md:px-20 mt-20 w-full">
+      <div className="px-5 md:px-20 mt-20 w-full" data-aos="flip-left">
         <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16">
           {testimonials.map((testimonial) => (
             <div

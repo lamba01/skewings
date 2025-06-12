@@ -30,7 +30,10 @@ const offers = [
 
 function Discover() {
   return (
-    <section className="px-5 md:px-20 text-center mt-20 w-full">
+    <section
+      className="px-5 md:px-20 text-center mt-20 w-full"
+      data-aos="flip-right"
+    >
       <SectionHeader
         title="discover the world from above"
         subtitle="Whether you're soaring over breathtaking landscapes or gliding through the clouds, every journey is an opportunity for adventure"
