@@ -67,7 +67,7 @@ export default function NavBar() {
       {/* Book Trip Button */}
       <div className="hidden md:block">
         <NavLink to="/book-trip">
-          <button className="bg-black text-white uppercase font-semibold px-8 py-2 rounded-4xl hover:bg-gray-800 transition duration-300">
+          <button className="cursor-pointer bg-black text-white uppercase font-semibold px-8 py-2 rounded-4xl hover:bg-gray-800 transition duration-300">
             Book Trip
           </button>
         </NavLink>
